@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation with jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="myForm">
+        <label>Name:</label>
+        <input type="text" id="name" name="name">
+        <span class="error" id="nameError">Name is required.</span>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <span class="error" id="emailError">Email is required.</span>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>   
+</body>
+</html>
